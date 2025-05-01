@@ -1,0 +1,62 @@
+:root{
+    --skyblueBG: #52deea;
+    --midBlue: #005075;
+    --deepBlue: #0a082e;
+    --unsaturatedGreen: #596e62;
+    --customGray: #bfbfbf;
+    --strongPink: #e73399;
+    --softPink: #ff80c8;
+}
+@font-face {
+    font-family: "Megrim";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/Fonts/Megrim/Megrim-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Federo";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/Fonts/Federo/Federo-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "NYCD";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/Fonts/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf) format("truetype");
+}
+#Header{
+    background-color: var(--skyblueBG);
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+#Header img{
+    height: 100%;
+    width: 100%;
+}
+#TitleCard{
+    background-color: var(--deepBlue);
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+#TitleCard img{
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: var(--unsaturatedGreen);
+    margin: 0;
+    padding: 0;
+}
+.JournalEntry {
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+p.JournalEntry {
+    font-family: "NYCD", normal;
+    text-align: center;
+}
