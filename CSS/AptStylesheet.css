@@ -11,7 +11,7 @@
     font-family: Megrim;
     font-style: normal;
     font-weight: 400;
-    src: url(/Fonts/Megrim/Megrim-Regular.ttf) format("truetype");
+    src: url('../../WebPage/Fonts/Megrim/Megrim-Regular.ttf') format("truetype");
 }
 @font-face {
     font-family: Federo;
