@@ -17,13 +17,13 @@
     font-family: Federo;
     font-style: normal;
     font-weight: 400;
-    src: url(../../Fonts/Federo/Federo-Regular.ttf) format("truetype");
+    src: url(../../WebPage/Fonts/Federo/Federo-Regular.ttf) format("truetype");
 }
 @font-face {
     font-family: NYCD;
     font-style: normal;
     font-weight: 400;
-    src: url(../Fonts/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf) format("truetype");
+    src: url(../WebPage/Fonts/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf) format("truetype");
 }
 #Header{
     background-color: var(--skyblueBG);
