@@ -4,6 +4,7 @@
     --deepBlue: #0a082e;
     --unsaturatedGreen: #596e62;
     --customGray: #bfbfbf;
+    --customDarkGray: #1c1c1c;
     --strongPink: #e73399;
     --softPink: #ff80c8;
 }
@@ -26,7 +27,7 @@
     src: url('../Fonts/NothingYouCouldDo/NothingYouCouldDo-Regular.ttf') format("truetype");
 }
 #Header{
-    background-color: var(--skyblueBG);
+    background-color: var(--customDarkGray);
     height: 200px;
     margin: 0;
     padding: 0;
